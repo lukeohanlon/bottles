@@ -1,3 +1,6 @@
+body {
+    background-color: rgb(254, 254, 254);
+}
 .cont {
     /* width: 100%; */
     display: flex;
@@ -7,10 +10,34 @@
     text-align: center;
     padding: 10% 20%;
     font-family: 'Lato', sans-serif;
-    font-weight: 200;
+    font-weight: 300;
+    font-size: 1.22em;
 }
 p{
     font-size: 1.2em;
     font-weight: 300;
     
+}
+.image {
+    width: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 20px !important;
+    background-color: rgb(50, 235, 225) !important;
+}
+.ui.card .meta :last-child, .ui.cards>.card .meta :last-child {
+    margin-right: 0;
+    font-weight: 400 !important;
+}
+
+.ui.card {
+    width: 90%;
+}
+.ui.card>.image>img, .ui.cards>.card>.image>img {
+    width: 60px;
+}
+
+#del-btn {
+    display: none;
 }
