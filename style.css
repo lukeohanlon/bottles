@@ -35,7 +35,7 @@ p{
     width: 90%;
 }
 .ui.card>.image>img, .ui.cards>.card>.image>img {
-    width: 60px;
+    width: 60px !important;
 }
 
 #del-btn {
