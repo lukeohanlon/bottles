@@ -27,12 +27,12 @@ p{
     background-color: rgb(50, 235, 225) !important;
 }
 .ui.card .meta :last-child, .ui.cards>.card .meta :last-child {
-    margin-right: 0;
+    margin-right: 0 !important;
     font-weight: 400 !important;
 }
 
 .ui.card {
-    width: 90%;
+    width: 90% !important;
 }
 .ui.card>.image>img, .ui.cards>.card>.image>img {
     width: 60px !important;
