@@ -1,0 +1,16 @@
+.cont {
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10% 20%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+}
+p{
+    font-size: 1.2em;
+    font-weight: 300;
+    
+}
