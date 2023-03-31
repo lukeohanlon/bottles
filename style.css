@@ -1,17 +1,17 @@
 body {
-    background-color: rgb(254, 254, 254);
+    background-color: #00b5ad;
 }
 .cont {
-    /* width: 100%; */
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    padding: 10% 20%;
+    padding: 20px 20%;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 1.22em;
+    background-color: #00b5ad;
 }
 p{
     font-size: 1.2em;
@@ -24,7 +24,7 @@ p{
     align-items: center !important;
     justify-content: center !important;
     padding: 20px !important;
-    background-color: rgba(50, 235, 225, 0.6) !important;
+    background-color: rgba(50, 235, 225, 0.3) !important;
 }
 .ui.card .meta :last-child, .ui.cards>.card .meta :last-child {
     margin-right: 0 !important;
@@ -40,6 +40,29 @@ p{
     width: fit-content;
     
 }
+.content {
+    background-color: teal !important;
+}
+.ui.card>.content>h1.header, .ui.cards>.card>.content>h1.header {
+    background-color: white; 
+    color: teal;
+    padding: 20px;
+    font-weight: 400 !important;
+    /* width: ; */
+}
+.ui.card .meta, .ui.cards>.card .meta {
+    font-size: 1em;
+    color: rgba(255, 255, 255, 0.8) !important;
+    padding-top: 10px;
+}
+.ui.card>.content>.description, .ui.cards>.card>.content>.description {
+    clear: both;
+    color: rgb(255, 255, 255);
+    padding:10px 20px;
+}
+.ui.card>.content, .ui.cards>.card>.content {
+    padding: 0 0 20px 0;
+}
 .tops {
     position: absolute;
     top: 0;
@@ -50,27 +73,19 @@ p{
     width:-webkit-fill-available
 }
 .top {
-    /* width: 800px !important; */
-    /* position: absolute; */
     top: 0;
     left: 0;
     z-index: 20;
     padding-right: 10px;
     width:50%;
-    /* min-width: 100%; */
-    /* margin-left: 150px; */
 
 }
 .top2  {
-    /* width: 800px !important; */
-    /* position: absolute; */
     top: 0;
     left: 0;
     z-index: 20;
     padding-right: 10px;
     width:50%;
-    /* min-width: 100%; */
-    /* margin-left: 150px; */
     -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
@@ -87,7 +102,7 @@ p{
   }
 @media screen and (max-width: 980px) {
     .cont {
-        padding: 100px ;
+        padding: 20px, 100px ;
     }
   }
   @media screen and (max-width: 690px) {
