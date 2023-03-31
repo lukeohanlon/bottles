@@ -37,7 +37,45 @@ p{
 .ui.card>.image>img, .ui.cards>.card>.image>img {
     width: 200px !important;
     margin-left: 150px;
+    width: fit-content;
+    
 }
+.tops {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    display: flex;
+    
+    width:-webkit-fill-available
+}
+.top {
+    /* width: 800px !important; */
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    z-index: 20;
+    padding-right: 10px;
+    width:50%;
+    /* min-width: 100%; */
+    /* margin-left: 150px; */
+
+}
+.top2  {
+    /* width: 800px !important; */
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    z-index: 20;
+    padding-right: 10px;
+    width:50%;
+    /* min-width: 100%; */
+    /* margin-left: 150px; */
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+
 
 #del-btn {
     display: none;
