@@ -40,7 +40,6 @@
           <img class="top" src="top.png">
           <img class="top2" src="top.png">
         </div>
-        
       </div>
       <div id="image" class="image">
         <!-- <img class="top" src="top.png"> -->
@@ -50,14 +49,19 @@
         <h1 class="header">99 Bottles</h1>
         <div class="meta">
           <span class="date">Song Lyrics</span>
+      
         </div>
         <div  id="song" class="description">
           
         </div>
+        <div id="type"></div>
       </div>
       <div class="extra content">
         <a>
-          <button id="btn" class="ui button teal" onclick="show()">Show Lyrics</button>
+          <button id="btn" class="ui button red teal" onclick="startType()">Type Lyrics</button>
+          
+          <button id="btn-show" class="ui button teal" onclick="show()">Show Lyrics</button>
+          <button id="btn-hurry" class="ui button red teal" onclick="hurryBtn()">Hurry Up</button>
           <button id="del-btn" class="ui button teal" onclick="del()">Delete Lyrics</button>
         </a>
       </div>
