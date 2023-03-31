@@ -27,6 +27,7 @@ let startType = () => {
         typeText.innerHTML = text
         if(hurry == true){
             timeout = 1
+            document.getElementById("btn-hurry").setAttribute('disabled', '')
         }
         setTimeout(typewriter, timeout)
     }

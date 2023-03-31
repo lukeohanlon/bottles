@@ -71,6 +71,7 @@ p{
     clear: both;
     color: rgb(255, 255, 255);
     padding:10px 20px;
+   
 }
 .ui.card>.content, .ui.cards>.card>.content {
     padding: 0 0 20px 0;
@@ -95,8 +96,15 @@ p{
     left: 0;
     z-index: 20;
     display: flex;
-    
     width:-webkit-fill-available
+}
+
+#type, #song {
+    height: fit-content;
+    max-height: 40vh;
+    overflow-y: scroll;
+    display: flex;
+flex-direction: column-reverse;
 }
 .top {
     top: 0;
